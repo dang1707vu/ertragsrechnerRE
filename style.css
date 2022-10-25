@@ -11044,4 +11044,156 @@ ul .btn {
   border: none;
 }
 
+.angle-wrapper {
+  position: relative;
+  height: 100%;
+  margin-top: 165px;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 190px;
+}
+
+.degName {
+  position: relative;
+  background: darkcyan;
+  margin-left: -3%;
+  margin-top: 15px;
+}
+
+#deg0 {
+  left: -1.5%;
+  position: absolute;
+}
+
+#deg15 {
+  position: absolute;
+  left: 14.2%;
+}
+
+#deg30 {
+  position: absolute;
+  left: 29.5%;
+}
+
+#deg45 {
+  position: absolute;
+  left: 45.5%;
+}
+
+#deg60 {
+  position: absolute;
+  left: 62%;
+}
+
+#deg75 {
+  position: absolute;
+  left: 78%;
+}
+
+#deg90 {
+  position: absolute;
+  left: 95%;
+}
+
+.angle {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  background: #D7DBDD;
+  border: 6px solid black;
+  border-top-right-radius: 100%;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  opacity: 0.1;
+}
+
+.angle-dir-wrapper {
+  transform-origin: bottom left;
+  position: absolute;
+  background-color: transparent;
+  width: 180px;
+  height: 180px;
+  border-top-right-radius: 100%;
+  left: 10px;
+  top: -6px;
+  overflow: hidden;
+}
+
+.angle-dir-fade {
+  transform-origin: bottom left;
+  position: absolute;
+  background: #3edc99;
+  opacity: 0.4;
+  width: 163px;
+  height: 167px;
+  border-top-right-radius: 100%;
+  left: 6px;
+  top: 13px;
+  rotate: 90deg;
+  transition: 0.3s;
+}
+
+.sun1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #fcb900;
+  border-radius: 100%;
+  top: -4%;
+  left: 70%;
+  opacity: 0.08;
+}
+
+.sun2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fcb900;
+  border-radius: 100%;
+  top: 0%;
+  left: 75%;
+  opacity: 0.1;
+}
+
+.sun-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #fcb900;
+  opacity: 0.7;
+  top: 5%;
+  left: 80%;
+  z-index: 1000;
+}
+
+.angleDir {
+  transform-origin: bottom center;
+  position: absolute;
+  overflow: hidden;
+  height: 110px;
+  width: 7px;
+  background: #0d6efd;
+  top: 67px;
+  left: 7px;
+  border-radius: 50px;
+  rotate: 90deg;
+  transition: 0.3s;
+}
+
+.Y {
+  position: absolute;
+  top: -30px;
+}
+
+.X {
+  position: absolute;
+  top: 80%;
+  left: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
