@@ -10907,13 +10907,16 @@ ul .btn {
 }
 
 .dot-container {
-  top: -100px;
-  left: -5%;
+  top: -115px;
   position: relative;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.test {
+  margin-left: 20px;
 }
 
 .dir {
@@ -11198,12 +11201,41 @@ ul .btn {
 
 .cardKosten {
   width: 325px;
+  max-width: 1000px;
   height: 400px;
   margin-left: -2%;
 }
 
 .img {
   margin-left: -25px;
+}
+
+@media screen and (min-width: 361px) and (max-width: 467px) {
+  .form-range {
+    min-width: 295px;
+    max-width: 420px;
+  }
+  .list-group {
+    min-width: 295px;
+    max-width: 420px;
+  }
+  .range-labels {
+    min-width: 295px;
+    max-width: 420px;
+  }
+  .dot-container {
+    margin-left: 20px;
+    top: -115px;
+    left: -13px;
+  }
+  .test {
+    margin: auto;
+  }
+  .cardKosten {
+    min-width: 355px;
+    max-width: 420px;
+    height: 400px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
