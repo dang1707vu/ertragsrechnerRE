@@ -63,18 +63,18 @@ $warning: #3edc99;
 
 // Ausrichtung & Neigung
 .form-range {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 295px;
+    max-width: 295px;
 }
 
 .list-group {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 295px;
+    max-width: 295px;
 }
 
 .range-labels {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 295px;
+    max-width: 295px;
 }
 
 .range {
@@ -430,3 +430,14 @@ $warning: #3edc99;
     top: 80%;
     left: 100%;
   }
+
+// Card Styling
+.cardKosten {
+    width: 325px;
+    height: 400px;
+    margin-left: -2%;
+  }
+
+.img {
+    margin-left: -25px;
+}

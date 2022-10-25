@@ -10826,18 +10826,18 @@ ul .btn {
 }
 
 .form-range {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 295px;
+  max-width: 295px;
 }
 
 .list-group {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 295px;
+  max-width: 295px;
 }
 
 .range-labels {
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 295px;
+  max-width: 295px;
 }
 
 .range {
@@ -11194,6 +11194,16 @@ ul .btn {
   position: absolute;
   top: 80%;
   left: 100%;
+}
+
+.cardKosten {
+  width: 325px;
+  height: 400px;
+  margin-left: -2%;
+}
+
+.img {
+  margin-left: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */
