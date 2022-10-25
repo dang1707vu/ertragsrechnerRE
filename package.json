@@ -1,0 +1,14 @@
+{
+  "name": "ertragsrechnerre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "compile": "sass -w main.scss style.css"
+  },
+  "author": "Vu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
