@@ -55,3 +55,230 @@ $warning: #3edc99;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none;
 }
+
+// Text
+.textT {
+    font-size: 18px;
+}
+
+// Ausrichtung & Neigung
+.form-range {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.list-group {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.range-labels {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.range {
+    margin-top: -90px;
+}
+
+// Ausrichtung|Compass Styling
+.rangeNav1 {
+    text-align: center;
+    position: relative;
+}
+
+.dirName {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 15px;
+    margin-left: -5%;
+}
+
+#N {
+    position: absolute;
+    left: -1.5%;
+  }
+  
+  #NO {
+    position: absolute;
+    left: 10.5%;
+  }
+  
+  #O {
+    position: absolute;
+    left: 25.75%;
+  }
+  
+  #SO {
+    position: absolute;
+    left: 38%;
+  }
+  
+  #S {
+    position: absolute;
+    left: 53.25%;
+  }
+  
+  #SW {
+    position: absolute;
+    left: 65.75%;
+  }
+  
+  #W {
+    position: absolute;
+    left: 80.75%;
+  }
+  
+  #NW {
+    position: absolute;
+    left: 94%;
+  }
+
+  .circle-wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 165px;
+    margin-bottom: -35px;
+    margin-left: 10%;
+  }
+
+  .dot-container {
+    top: -100px;
+    left: -5%;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .dir {
+    display: flex;
+    position: relative;
+    left: 31%;
+  }
+  
+  .dot {
+    left: 100.2px;
+    top: 99.95px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    height: 2px;
+    width: 2px;
+    border-radius: 100%;
+    color: red;
+    border: solid 2px;
+  }
+  
+  .sm-circle {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    color: #ECECEC;
+    border: solid 10px;
+    border-radius: 100%;
+    z-index: -1000;
+  }
+  
+  .lg-circle {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: #DBDBDB;
+    border: solid 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: -100;
+  }
+
+  
+  .triangle-down {
+    transform-origin: bottom center;
+    position: absolute;
+    rotate: 0deg;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 100px solid rgba(62, 220, 153, 0.7);
+    top: -100px;
+    left: -45px;
+    transition: .3s;
+    z-index: 1000;
+    overflow: hidden;
+  }
+
+  .N {
+    color: #0275d8;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: -5px;
+    background: white;
+    border: none;
+  }
+  
+  .S {
+    color: red;
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -5px;
+    background: white;
+    border: none;
+  }
+  
+  .O {
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 122px;
+    background: white;
+    border: none;
+  }
+  
+  .W {
+    position: absolute;
+    margin-top: -13px;
+    margin-left: -140px;
+    background: white;
+    border: none;
+  }
+  
+  .NO {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 85px;
+    background: white;
+    border: none;
+  }
+  
+  .SO {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 85px;
+    background: white;
+    border: none;
+  }
+  
+  .SW {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -110px;
+    background: white;
+    border: none;
+  }
+  
+  .NW {
+    opacity: 0.75;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -110px;
+    background: white;
+    border: none;
+  }
