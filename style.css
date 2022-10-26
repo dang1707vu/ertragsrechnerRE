@@ -10923,6 +10923,7 @@ ul .btn {
   display: flex;
   position: relative;
   left: 31%;
+  margin-left: 3px;
 }
 
 .dot {
@@ -11412,6 +11413,9 @@ ul .btn {
   }
   .degName {
     margin-left: 9%;
+  }
+  .dir {
+    margin-left: 3px;
   }
   .test {
     margin-left: 160px;
