@@ -10904,7 +10904,7 @@ ul .btn {
   margin-top: 165px;
   margin-bottom: -35px;
   margin-left: 10%;
-  will-change: auto;
+  will-change: transform;
 }
 
 .dot-container {
