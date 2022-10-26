@@ -10914,6 +10914,7 @@ ul .btn {
   width: 200px;
   border-radius: 50%;
   overflow: hidden;
+  transform: translateZ(0);
 }
 
 .test {
