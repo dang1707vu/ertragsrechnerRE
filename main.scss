@@ -412,7 +412,7 @@ $warning: #3edc99;
 
 .angleDir {
     transform-origin: bottom center;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     height: 110px;
     width: 7px;
