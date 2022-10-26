@@ -214,6 +214,7 @@ $warning: #3edc99;
     transition: .3s;
     z-index: 1000;
     overflow: hidden;
+    will-change: transform;
   }
 
   .N {

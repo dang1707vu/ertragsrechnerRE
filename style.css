@@ -10975,6 +10975,7 @@ ul .btn {
   transition: 0.3s;
   z-index: 1000;
   overflow: hidden;
+  will-change: transform;
 }
 
 .N {
