@@ -10936,7 +10936,7 @@ ul .btn {
   border-radius: 100%;
   color: red;
   border: solid 2px;
-  will-change: transform;
+  will-change: auto;
 }
 
 .sm-circle {
@@ -10948,7 +10948,7 @@ ul .btn {
   border: solid 10px;
   border-radius: 100%;
   z-index: -1000;
-  will-change: transform;
+  will-change: auto;
 }
 
 .lg-circle {
@@ -10961,7 +10961,7 @@ ul .btn {
   border-radius: 100%;
   overflow: hidden;
   z-index: -100;
-  will-change: transform;
+  will-change: auto;
 }
 
 .triangle-down {
@@ -10978,7 +10978,7 @@ ul .btn {
   transition: 0.3s;
   z-index: 1000;
   overflow: hidden;
-  will-change: transform;
+  will-change: auto;
 }
 
 .N {
