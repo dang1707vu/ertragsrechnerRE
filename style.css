@@ -10963,7 +10963,7 @@ ul .btn {
 
 .triangle-down {
   transform-origin: bottom center;
-  position: absolute;
+  position: fixed;
   rotate: 0deg;
   width: 0;
   height: 0;
@@ -11178,7 +11178,7 @@ ul .btn {
 
 .angleDir {
   transform-origin: bottom center;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   height: 110px;
   width: 7px;

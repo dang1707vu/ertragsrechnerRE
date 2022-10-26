@@ -202,7 +202,7 @@ $warning: #3edc99;
   
   .triangle-down {
     transform-origin: bottom center;
-    position: absolute;
+    position: fixed;
     rotate: 0deg;
     width: 0;
     height: 0;
@@ -413,7 +413,7 @@ $warning: #3edc99;
 
 .angleDir {
     transform-origin: bottom center;
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     height: 110px;
     width: 7px;
