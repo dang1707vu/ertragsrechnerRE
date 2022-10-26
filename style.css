@@ -10854,7 +10854,7 @@ ul .btn {
   margin-right: auto;
   position: relative;
   margin-top: 15px;
-  margin-left: -5%;
+  margin-left: -3%;
 }
 
 #N {
@@ -11096,7 +11096,7 @@ ul .btn {
 
 #deg90 {
   position: absolute;
-  left: 95%;
+  left: 93%;
 }
 
 .angle {
@@ -11203,7 +11203,7 @@ ul .btn {
   width: 325px;
   max-width: 1000px;
   height: 400px;
-  margin-left: -2%;
+  margin: auto;
 }
 
 .img {
@@ -11224,17 +11224,204 @@ ul .btn {
     max-width: 420px;
   }
   .dot-container {
-    margin-left: 20px;
+    margin-left: 0px;
+    top: -115px;
+    left: -13px;
+  }
+  .dir {
+    margin-left: -13px;
+  }
+  .test {
+    margin: auto;
+    left: auto;
+    right: auto;
+  }
+  .dirName {
+    margin-left: -5%;
+  }
+  .degName {
+    margin-left: -3%;
+  }
+}
+@media screen and (min-width: 415px) {
+  .cardKosten {
+    width: 385px;
+    height: 370px;
+    margin: auto;
+  }
+  .test {
+    margin: auto;
+    left: auto;
+    right: auto;
+  }
+}
+@media screen and (min-width: 468px) {
+  .form-range {
+    min-width: 420px;
+    max-width: 480px;
+  }
+  .list-group {
+    min-width: 420px;
+    max-width: 480px;
+  }
+  .range-labels {
+    min-width: 420px;
+    max-width: 480px;
+  }
+  .dirName {
+    margin-left: 2%;
+  }
+  .degName {
+    margin-left: 2%;
+  }
+  .dir {
+    margin-left: -18px;
+  }
+  .dot-container {
+    margin-left: -5px;
     top: -115px;
     left: -13px;
   }
   .test {
     margin: auto;
+    left: auto;
+    right: auto;
   }
   .cardKosten {
-    min-width: 355px;
-    max-width: 420px;
-    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .form-range {
+    min-width: 480px;
+    max-width: 500px;
+  }
+  .list-group {
+    min-width: 480px;
+    max-width: 500px;
+  }
+  .range-labels {
+    min-width: 480px;
+    max-width: 500px;
+  }
+  .dirName {
+    margin-left: 0%;
+  }
+  .degName {
+    margin-left: 0%;
+  }
+  .dir {
+    margin-left: -5px;
+  }
+  .dot-container {
+    margin-left: 10px;
+    top: -115px;
+    left: -13px;
+  }
+  .test {
+    margin-left: 90px;
+    left: auto;
+    right: auto;
+  }
+  .cardKosten {
+    width: 505px;
+    height: 360px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form-range {
+    min-width: 500px;
+    max-width: 500px;
+  }
+  .list-group {
+    min-width: 500px;
+    max-width: 500px;
+  }
+  .range-labels {
+    min-width: 500px;
+    max-width: 500px;
+  }
+  .dot-container {
+    margin-left: 20px;
+    top: -115px;
+    left: -13px;
+  }
+  .test {
+    margin-left: 150px;
+    left: auto;
+    right: auto;
+  }
+  .dirName {
+    margin-left: 11%;
+    margin-top: 0px;
+  }
+  .degName {
+    margin-left: 11.5%;
+    margin-top: 0px;
+  }
+  .range {
+    margin-top: -70px;
+  }
+  .cardKosten {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .form-range {
+    min-width: 550px;
+    max-width: 550px;
+  }
+  .list-group {
+    min-width: 550px;
+    max-width: 550px;
+  }
+  .range-labels {
+    min-width: 550px;
+    max-width: 550px;
+  }
+  .test {
+    margin-left: 250px;
+    left: auto;
+    right: auto;
+  }
+  .dirName {
+    margin-left: 19%;
+  }
+  .degName {
+    margin-left: 19%;
+  }
+  .cardKosten {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cardKosten {
+    margin-left: -125px;
+    width: 500px;
+  }
+  .dirName {
+    margin-left: 2%;
+  }
+  .degName {
+    margin-left: 2%;
+  }
+  .test {
+    margin-left: 120px;
+    left: auto;
+    right: auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .dirName {
+    margin-left: 9%;
+  }
+  .degName {
+    margin-left: 9%;
+  }
+  .test {
+    margin-left: 160px;
+    left: auto;
+    right: auto;
   }
 }
 
