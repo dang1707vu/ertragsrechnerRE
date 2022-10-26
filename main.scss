@@ -299,8 +299,9 @@ $warning: #3edc99;
   }
 
 .degName {
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    background: darkcyan;
     margin-left: -3%;
     margin-top: 15px;
   }
@@ -452,15 +453,15 @@ $warning: #3edc99;
     //Range
     .form-range {
         min-width: 295px;
-        max-width: 420px;
+        max-width: 410px;
     }
     .list-group {
         min-width: 295px;
-        max-width: 420px;
+        max-width: 410px;
     }
     .range-labels {
         min-width: 295px;
-        max-width: 420px;
+        max-width: 410px;
     }
     //Circle
     .dot-container {
@@ -475,12 +476,6 @@ $warning: #3edc99;
         margin: auto;
         left: auto;
         right: auto;
-    }
-    .dirName {
-      margin-left: -5%;
-    }
-    .degName {
-    margin-left: -3%;
     }
 }
 
@@ -500,22 +495,22 @@ $warning: #3edc99;
 @media screen and (min-width: 468px){
     //Range
     .form-range {
-        min-width: 420px;
-        max-width: 480px;
+        min-width: 410px;
+        max-width: 460px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .list-group {
-        min-width: 420px;
-        max-width: 480px;
+        min-width: 410px;
+        max-width: 460px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .range-labels {
-        min-width: 420px;
-        max-width: 480px;
-    }
-    .dirName {
-      margin-left: 2%;
-    }
-    .degName {
-      margin-left: 2%;
+        min-width: 410px;
+        max-width: 460px;
+        margin-left: auto;
+        margin-right: auto;
     }
     //Circle
     .dir {
