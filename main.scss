@@ -151,7 +151,7 @@ $warning: #3edc99;
     width: 200px;
     border-radius: 50%;
     overflow: hidden;
-    transform: translateZ(0);
+    // transform: translateZ(0);
   }
 
   .test {
@@ -203,7 +203,7 @@ $warning: #3edc99;
   
   .triangle-down {
     transform-origin: bottom center;
-    position: relative;
+    position: absolute;
     rotate: 0deg;
     width: 0;
     height: 0;
