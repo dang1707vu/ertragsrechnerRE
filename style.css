@@ -10904,7 +10904,6 @@ ul .btn {
   margin-top: 165px;
   margin-bottom: -35px;
   margin-left: 10%;
-  will-change: auto;
 }
 
 .dot-container {
@@ -10938,7 +10937,6 @@ ul .btn {
   border-radius: 100%;
   color: red;
   border: solid 2px;
-  will-change: auto;
 }
 
 .sm-circle {
@@ -10950,7 +10948,6 @@ ul .btn {
   border: solid 10px;
   border-radius: 100%;
   z-index: -1000;
-  will-change: auto;
 }
 
 .lg-circle {
@@ -10963,12 +10960,11 @@ ul .btn {
   border-radius: 100%;
   overflow: hidden;
   z-index: -100;
-  will-change: auto;
 }
 
 .triangle-down {
   transform-origin: bottom center;
-  position: fixed;
+  position: absolute;
   rotate: 0deg;
   width: 0;
   height: 0;
@@ -10980,7 +10976,6 @@ ul .btn {
   transition: 0.3s;
   z-index: 1000;
   overflow: hidden;
-  will-change: auto;
 }
 
 .N {
