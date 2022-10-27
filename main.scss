@@ -142,7 +142,6 @@ $warning: #3edc99;
     margin-top: 165px;
     margin-bottom: -35px;
     margin-left: 10%;
-    will-change: auto;
   }
 
   .dot-container {
@@ -176,7 +175,6 @@ $warning: #3edc99;
     border-radius: 100%;
     color: red;
     border: solid 2px;
-    will-change: auto;
   }
   
   .sm-circle {
@@ -188,7 +186,6 @@ $warning: #3edc99;
     border: solid 10px;
     border-radius: 100%;
     z-index: -1000;
-    will-change: auto;
   }
   
   .lg-circle {
@@ -201,13 +198,12 @@ $warning: #3edc99;
     border-radius: 100%;
     overflow: hidden;
     z-index: -100;
-    will-change: auto;
   }
 
   
   .triangle-down {
     transform-origin: bottom center;
-    position: fixed;
+    position: absolute;
     rotate: 0deg;
     width: 0;
     height: 0;
@@ -219,7 +215,6 @@ $warning: #3edc99;
     transition: .3s;
     z-index: 1000;
     overflow: hidden;
-    will-change: auto;
   }
 
   .N {
