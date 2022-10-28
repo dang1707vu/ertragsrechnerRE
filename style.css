@@ -10901,13 +10901,12 @@ ul .btn {
   position: relative;
   display: flex;
   height: 100%;
-  margin-top: 185px;
+  margin-top: 165px;
   margin-bottom: -35px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .dot-container {
-  float: left;
   top: -115px;
   position: relative;
   height: 200px;
@@ -10918,15 +10917,15 @@ ul .btn {
 }
 
 .test {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .dir {
-  float: left;
+  float: none;
   display: inline !important;
   position: relative;
-  left: 93px;
-  top: -15px;
+  left: 31.5%;
+  top: 10px;
 }
 
 .dot {
