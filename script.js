@@ -1,8 +1,8 @@
-let angle = document.querySelector('.angleDir');
-let rotate = getComputedStyle(angle).getPropertyValue('rotate');
+var angle = document.querySelector('.angleDir');
+var rotate = getComputedStyle(angle).getPropertyValue('rotate');
 
-let rangeX = document.querySelector('#customRange2');
-let value = getComputedStyle(rangeX).getPropertyValue('min');
+var rangeX = document.querySelector('#customRange2');
+var value = getComputedStyle(rangeX).getPropertyValue('min');
 
 
 //Photovoltaikleistung
