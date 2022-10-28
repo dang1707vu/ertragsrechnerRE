@@ -10921,10 +10921,11 @@ ul .btn {
 }
 
 .dir {
-  display: flex;
+  float: none;
+  display: inline !important;
   position: relative;
-  left: 31%;
-  margin-left: 3px;
+  left: 31.5%;
+  top: 10px;
 }
 
 .dot {
