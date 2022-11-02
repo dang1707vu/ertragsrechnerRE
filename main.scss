@@ -98,41 +98,49 @@ $warning: #3edc99;
 #N {
     position: absolute;
     left: -1.5%;
+    margin: 0%;
   }
   
   #NO {
     position: absolute;
     left: 10.5%;
+    margin: 0%;
   }
   
   #O {
     position: absolute;
     left: 25.75%;
+    margin: 0%;
   }
   
   #SO {
     position: absolute;
     left: 38%;
+    margin: 0%;
   }
   
   #S {
     position: absolute;
     left: 53.25%;
+    margin: 0%;
   }
   
   #SW {
     position: absolute;
     left: 65.75%;
+    margin: 0%;
   }
   
   #W {
     position: absolute;
     left: 80.75%;
+    margin: 0%;
   }
   
   #NW {
     position: absolute;
     left: 94%;
+    margin: 0%;
   }
 
   .circle-wrapper {
@@ -156,14 +164,13 @@ $warning: #3edc99;
 
   .test {
     margin-left: 20px;
+    left: 0;
 }
 
   .dir {
-    float: none;
-    display: inline !important;
     position: relative;
-    left: 31.5%;
-    top: 10px;
+    left: 47.5%;
+    top: 0px;
   }
   
   .dot {
@@ -225,6 +232,7 @@ $warning: #3edc99;
     margin-left: -5px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .S {
@@ -235,6 +243,7 @@ $warning: #3edc99;
     margin-left: -5px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .O {
@@ -243,6 +252,7 @@ $warning: #3edc99;
     margin-left: 122px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .W {
@@ -251,6 +261,7 @@ $warning: #3edc99;
     margin-left: -140px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .NO {
@@ -260,6 +271,7 @@ $warning: #3edc99;
     margin-left: 85px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .SO {
@@ -269,6 +281,7 @@ $warning: #3edc99;
     margin-left: 85px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .SW {
@@ -278,6 +291,7 @@ $warning: #3edc99;
     margin-left: -110px;
     background: white;
     border: none;
+    left: 0%;
   }
   
   .NW {
@@ -287,6 +301,7 @@ $warning: #3edc99;
     margin-left: -110px;
     background: white;
     border: none;
+    left: 0%;
   }
 
 
@@ -556,7 +571,7 @@ $warning: #3edc99;
     }
     //Circle
     .dir {
-      margin-left: -5px;
+      margin-left: -9px;
     }
     .dot-container {
         margin-left: 10px;
@@ -593,7 +608,10 @@ $warning: #3edc99;
     .dot-container {
         margin-left: 20px;
         top: -115px;
-        left: -13px;
+        left: -15px;
+    }
+    .dir {
+      margin-left: -5px;
     }
     .test {
         margin-left: 150px;
@@ -674,7 +692,7 @@ margin-left: 19%;
   margin-left: 9%;
   }
   .dir {
-    margin-left: 3px;
+    margin-left: -5px;
   }
   .test {
     margin-left: 160px;
