@@ -10922,7 +10922,6 @@ ul .btn {
   border-radius: 50%;
   overflow: hidden;
   transform: translateZ(0);
-  margin-left: 0px;
 }
 
 .test {
@@ -10932,9 +10931,8 @@ ul .btn {
 
 .dir {
   position: relative;
-  left: 46.5%;
+  left: 47.5%;
   top: 0px;
-  margin-left: 10px;
 }
 
 .dot {
@@ -11231,7 +11229,7 @@ ul .btn {
   margin-left: -25px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 467px) {
+@media screen and (min-width: 361px) and (max-width: 467px) {
   .form-range {
     min-width: 295px;
     max-width: 410px;
@@ -11250,7 +11248,7 @@ ul .btn {
     left: -13px;
   }
   .dir {
-    margin-left: -11px;
+    margin-left: -13px;
   }
   .test {
     margin: auto;
@@ -11290,9 +11288,10 @@ ul .btn {
     margin-right: auto;
   }
   .dir {
-    margin-left: -10px;
+    margin-left: -18px;
   }
   .dot-container {
+    margin-left: -5px;
     top: -115px;
     left: -13px;
   }
@@ -11325,7 +11324,17 @@ ul .btn {
     margin-left: 0%;
   }
   .dir {
-    margin-left: -10px;
+    margin-left: -9px;
+  }
+  .dot-container {
+    margin-left: 10px;
+    top: -115px;
+    left: -13px;
+  }
+  .test {
+    margin-left: 90px;
+    left: auto;
+    right: auto;
   }
   .cardKosten {
     width: 505px;
@@ -11345,8 +11354,18 @@ ul .btn {
     min-width: 500px;
     max-width: 500px;
   }
+  .dot-container {
+    margin-left: 20px;
+    top: -115px;
+    left: -15px;
+  }
+  .dir {
+    margin-left: -5px;
+  }
   .test {
-    margin-left: 30%;
+    margin-left: 150px;
+    left: auto;
+    right: auto;
   }
   .dirName {
     margin-left: 11%;
@@ -11377,7 +11396,9 @@ ul .btn {
     max-width: 550px;
   }
   .test {
-    margin-left: 33%;
+    margin-left: 250px;
+    left: auto;
+    right: auto;
   }
   .dirName {
     margin-left: 19%;
@@ -11401,7 +11422,9 @@ ul .btn {
     margin-left: 2%;
   }
   .test {
-    margin-left: 27%;
+    margin-left: 120px;
+    left: auto;
+    right: auto;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -11411,8 +11434,13 @@ ul .btn {
   .degName {
     margin-left: 9%;
   }
+  .dir {
+    margin-left: -5px;
+  }
   .test {
-    margin-left: 29%;
+    margin-left: 160px;
+    left: auto;
+    right: auto;
   }
 }
 
