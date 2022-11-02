@@ -160,6 +160,7 @@ $warning: #3edc99;
     border-radius: 50%;
     overflow: hidden;
     transform: translateZ(0);
+    margin-left: 0px;
   }
 
   .test {
@@ -169,8 +170,9 @@ $warning: #3edc99;
 
   .dir {
     position: relative;
-    left: 47.5%;
+    left: 46.5%;
     top: 0px;
+    margin-left: 10px;
   }
   
   .dot {
@@ -467,7 +469,7 @@ $warning: #3edc99;
 
 
 //Responsive Design at 361px
-@media screen and (min-width: 361px) and (max-width: 467px) {
+@media screen and (min-width: 360px) and (max-width: 467px) {
     //Range
     .form-range {
         min-width: 295px;
@@ -488,7 +490,7 @@ $warning: #3edc99;
       left: -13px;
   }
   .dir {
-    margin-left: -13px;
+    margin-left: -11px;
   }
     .test {
         margin: auto;
@@ -532,10 +534,9 @@ $warning: #3edc99;
     }
     //Circle
     .dir {
-      margin-left: -18px;
+      margin-left: -10px;
     }
     .dot-container {
-        margin-left: -5px;
         top: -115px;
         left: -13px;
     }
@@ -571,17 +572,7 @@ $warning: #3edc99;
     }
     //Circle
     .dir {
-      margin-left: -9px;
-    }
-    .dot-container {
-        margin-left: 10px;
-        top: -115px;
-        left: -13px;
-    }
-    .test {
-        margin-left: 90px;
-        left: auto;
-        right: auto;
+      margin-left: -10px;
     }
     .cardKosten {
         width: 505px;
@@ -605,18 +596,8 @@ $warning: #3edc99;
             max-width: 500px;
         }
     //Circle
-    .dot-container {
-        margin-left: 20px;
-        top: -115px;
-        left: -15px;
-    }
-    .dir {
-      margin-left: -5px;
-    }
     .test {
-        margin-left: 150px;
-        left: auto;
-        right: auto;
+      margin-left: 30%;
     }
     .dirName {
       margin-left: 11%;
@@ -650,9 +631,7 @@ $warning: #3edc99;
   }
 //Circle
 .test {
-  margin-left: 250px;
-  left: auto;
-  right: auto;
+  margin-left: 33%;
 }
 .dirName {
 margin-left: 19%;
@@ -678,9 +657,7 @@ margin-left: 19%;
   margin-left: 2%;
   }
   .test {
-    margin-left: 120px;
-    left: auto;
-    right: auto;
+    margin-left: 27%;
   }
 }
 
@@ -691,12 +668,7 @@ margin-left: 19%;
   .degName {
   margin-left: 9%;
   }
-  .dir {
-    margin-left: -5px;
-  }
   .test {
-    margin-left: 160px;
-    left: auto;
-    right: auto;
+    margin-left: 29%;
   }
 }
