@@ -11263,16 +11263,11 @@ ul .btn {
   }
   .dot-container {
     margin-left: 0px;
-    top: -115px;
-    left: -13px;
+    top: -100px;
+    left: -10px;
   }
   .dir {
-    left: 30px;
-  }
-  .test {
-    margin: auto;
-    left: auto;
-    right: auto;
+    left: 30%;
   }
 }
 @media screen and (min-width: 415px) {
@@ -11280,11 +11275,6 @@ ul .btn {
     width: 385px;
     height: 370px;
     margin: auto;
-  }
-  .test {
-    margin: auto;
-    left: auto;
-    right: auto;
   }
 }
 @media screen and (min-width: 468px) {
@@ -11350,11 +11340,6 @@ ul .btn {
     top: -115px;
     left: -13px;
   }
-  .test {
-    margin-left: 90px;
-    left: auto;
-    right: auto;
-  }
   .cardKosten {
     width: 505px;
     height: 360px;
@@ -11409,11 +11394,6 @@ ul .btn {
     min-width: 550px;
     max-width: 550px;
   }
-  .test {
-    margin-left: 250px;
-    left: auto;
-    right: auto;
-  }
   .dirName {
     margin-left: 19%;
   }
@@ -11435,11 +11415,6 @@ ul .btn {
   .degName {
     margin-left: 2%;
   }
-  .test {
-    margin-left: 120px;
-    left: auto;
-    right: auto;
-  }
 }
 @media screen and (min-width: 1400px) {
   .dirName {
@@ -11447,11 +11422,6 @@ ul .btn {
   }
   .degName {
     margin-left: 9%;
-  }
-  .test {
-    margin-left: 160px;
-    left: auto;
-    right: auto;
   }
 }
 

@@ -504,17 +504,12 @@ $warning: #3edc99;
     //Circle
     .dot-container {
       margin-left: 0px;
-      top: -115px;
-      left: -13px;
+      top: -100px;
+      left: -10px;
   }
   .dir {
-    left: 30px;
+    left: 30%;
   }
-    .test {
-        margin: auto;
-        left: auto;
-        right: auto;
-    }
 }
 
 @media screen and (min-width: 415px) {
@@ -522,11 +517,6 @@ $warning: #3edc99;
         width: 385px;
         height: 370px;
         margin: auto;
-    }
-    .test {
-        margin: auto;
-        left: auto;
-        right: auto;
     }
 }
 
@@ -598,11 +588,6 @@ $warning: #3edc99;
         top: -115px;
         left: -13px;
     }
-    .test {
-        margin-left: 90px;
-        left: auto;
-        right: auto;
-    }
     .cardKosten {
         width: 505px;
         height: 360px;
@@ -664,11 +649,6 @@ $warning: #3edc99;
       max-width: 550px;
   }
 //Circle
-.test {
-  margin-left: 250px;
-  left: auto;
-  right: auto;
-}
 .dirName {
 margin-left: 19%;
 }
@@ -692,11 +672,6 @@ margin-left: 19%;
   .degName {
   margin-left: 2%;
   }
-  .test {
-    margin-left: 120px;
-    left: auto;
-    right: auto;
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -705,10 +680,5 @@ margin-left: 19%;
   }
   .degName {
   margin-left: 9%;
-  }
-  .test {
-    margin-left: 160px;
-    left: auto;
-    right: auto;
   }
 }
