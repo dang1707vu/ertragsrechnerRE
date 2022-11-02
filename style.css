@@ -11374,9 +11374,7 @@ ul .btn {
     max-width: 500px;
   }
   .dot-container {
-    margin-left: 20px;
     top: -115px;
-    left: -13px;
   }
   .test {
     margin-left: 150px;
@@ -11449,9 +11447,6 @@ ul .btn {
   }
   .degName {
     margin-left: 9%;
-  }
-  .dir {
-    margin-left: 3px;
   }
   .test {
     margin-left: 160px;
