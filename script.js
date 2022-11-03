@@ -52,92 +52,86 @@ var X = 180;
     function Nord() {
         X = 180;
         document.getElementById('customRange').value = '0';
-        document.getElementById('triangle-down').style.rotate = "0deg";
+        document.getElementById('triangle-down').style.transform = "rotate(0deg)";
         calcWirkungsgradDir();
     }
     function NordO() {
         X = 145;
         document.getElementById('customRange').value = '1';
-        document.getElementById('triangle-down').style.rotate = "45deg";
+        document.getElementById('triangle-down').style.transform = "rotate(45deg)";
         calcWirkungsgradDir();
     
     }
     function Osten() {
         X = 90;
         document.getElementById('customRange').value = '2';
-        document.getElementById('triangle-down').style.rotate = "90deg";
+        document.getElementById('triangle-down').style.transform = "rotate(90deg)";
         calcWirkungsgradDir();
     }
     function SüdO() {
         X = 45;
         document.getElementById('customRange').value = '3';
-        document.getElementById('triangle-down').style.rotate = "135deg";
+        document.getElementById('triangle-down').style.transform = "rotate(135deg)";
         calcWirkungsgradDir();
     }
     function Süd() {
         X = 0;
         wirkungsgrad;
         document.getElementById('customRange').value = '4';
-        document.getElementById('triangle-down').style.rotate = "180deg";
+        document.getElementById('triangle-down').style.transform = "rotate(180deg)";
         calcWirkungsgradDir();
     }
     function SüdW() {
         X = 45;
         document.getElementById('customRange').value = '5';
-        document.getElementById('triangle-down').style.rotate = "225deg";
+        document.getElementById('triangle-down').style.transform = "rotate(225deg)";
         calcWirkungsgradDir();
     }
     function W() {
         X = 90;
         document.getElementById('customRange').value = '6';
-        document.getElementById('triangle-down').style.rotate = "270deg";
+        document.getElementById('triangle-down').style.transform = "rotate(270deg)";
         calcWirkungsgradDir();
     }
     function NordW() {
         X = 145;
         document.getElementById('customRange').value = '7';
-        document.getElementById('triangle-down').style.rotate = "315deg";
+        document.getElementById('triangle-down').style.transform = "rotate(315deg)";
         calcWirkungsgradDir();
     }
 
     function deg0() {
         document.getElementById('customRange2').value = '0';
-        // document.getElementById('angle-dir').style.rotate = "90deg";
         document.getElementById('angle-dir-fade').style.rotate = "90deg";
         angle.style.setProperty('rotate', '90deg');
         calcWirkungsgrad0deg();
     }
     function deg15() {
         document.getElementById('customRange2').value = '1';
-        // document.getElementById('angle-dir').style.rotate = "75deg";
         document.getElementById('angle-dir-fade').style.rotate = "75deg";
         angle.style.setProperty('rotate', '75deg');
         calcWirkungsgrad15deg();
     }
     function deg30() {
         document.getElementById('customRange2').value = '2';
-        // document.getElementById('angle-dir').style.rotate = "60deg";
         document.getElementById('angle-dir-fade').style.rotate = "60deg";
         angle.style.setProperty('rotate', '60deg');
         calcWirkungsgrad30deg();
     }
     function deg45() {
         document.getElementById('customRange2').value = '3';
-        // document.getElementById('angle-dir').style.rotate = "45deg";
         document.getElementById('angle-dir-fade').style.rotate = "45deg";
         angle.style.setProperty('rotate', '45deg');
         calcWirkungsgrad45deg();
     }
     function deg60() {
         document.getElementById('customRange2').value = '4';
-        // document.getElementById('angle-dir').style.rotate = "30deg";
         document.getElementById('angle-dir-fade').style.rotate = "30deg";
         angle.style.setProperty('rotate', '30deg');
         calcWirkungsgrad60deg();
     }
     function deg75() {
         document.getElementById('customRange2').value = '5';
-        // document.getElementById('angle-dir').style.rotate = "15deg";
         document.getElementById('angle-dir-fade').style.rotate = "15deg";
         angle.style.setProperty('rotate', '15deg');
         calcWirkungsgrad75deg();
@@ -145,7 +139,6 @@ var X = 180;
     function deg90() {
         r = 6;
         document.getElementById('customRange2').value = '6';
-        // document.getElementsByClassName('angleDir').style.rotate = "0deg";
         document.getElementById('angle-dir-fade').style.rotate = "0deg";
         angle.style.setProperty('rotate', '0deg');
         calcWirkungsgrad90deg();
