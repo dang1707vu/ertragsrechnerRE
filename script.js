@@ -108,7 +108,7 @@ var X = 180;
     function deg0() {
         document.getElementById('customRange2').value = '0';
         angleFade.style.transform = "rotate(-270deg)";
-        angle.style.transform = "rotate(0deg)";
+        angle.style.transform = "rotate(90deg)";
         calcWirkungsgrad0deg();
     }
     function deg15() {
