@@ -468,31 +468,16 @@ $warning: #3edc99;
     //Circle
     .dot-container {
       margin-left: 0px;
-      top: -110px;
+      top: -115px;
       left: -13px;
-      position: relative;
-      height: 185px;
-      width: 185px;
-  }
-  .dot {
-    top: 90.95px;
-    left: 91.2px;
   }
   .dir {
-    margin-left: -16px;
+    margin-left: -13px;
   }
     .test {
         margin: auto;
         left: auto;
         right: auto;
-    }
-    .sm-circle {
-      width: 145px;
-      height: 145px;
-    }
-    .lg-circle {
-      width: 185px;
-      height: 185px;
     }
 }
 
