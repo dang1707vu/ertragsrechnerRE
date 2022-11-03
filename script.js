@@ -107,44 +107,44 @@ var X = 180;
     function deg0() {
         document.getElementById('customRange2').value = '0';
         angleFade.style.transform = "rotate(0deg)";
-        angle.style.setProperty('rotate', '90deg');
+        angle.style.setProperty('rotate', '0deg');
         calcWirkungsgrad0deg();
     }
     function deg15() {
         document.getElementById('customRange2').value = '1';
         angleFade.style.transform = "rotate(-15deg)";
-        angle.style.setProperty('rotate', '75deg');
+        angle.style.setProperty('rotate', '-15deg');
         calcWirkungsgrad15deg();
     }
     function deg30() {
         document.getElementById('customRange2').value = '2';
         angleFade.style.transform = "rotate(-30deg)";
-        angle.style.setProperty('rotate', '60deg');
+        angle.style.setProperty('rotate', '-30deg');
         calcWirkungsgrad30deg();
     }
     function deg45() {
         document.getElementById('customRange2').value = '3';
         angleFade.style.transform = "rotate(-45deg)";
-        angle.style.setProperty('rotate', '45deg');
+        angle.style.setProperty('rotate', '-45deg');
         calcWirkungsgrad45deg();
     }
     function deg60() {
         document.getElementById('customRange2').value = '4';
         angleFade.style.transform = "rotate(-60deg)";
-        angle.style.setProperty('rotate', '30deg');
+        angle.style.setProperty('rotate', '-60deg');
         calcWirkungsgrad60deg();
     }
     function deg75() {
         document.getElementById('customRange2').value = '5';
         angleFade.style.transform = "rotate(-75deg)";
-        angle.style.setProperty('rotate', '15deg');
+        angle.style.setProperty('rotate', '-75deg');
         calcWirkungsgrad75deg();
     }
     function deg90() {
         r = 6;
         document.getElementById('customRange2').value = '6';
         angleFade.style.transform = "rotate(-90deg)";
-        angle.style.setProperty('rotate', '0deg');
+        angle.style.setProperty('rotate', '-90deg');
         calcWirkungsgrad90deg();
     }
 
