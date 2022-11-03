@@ -1,5 +1,4 @@
 let angle = document.querySelector('.angleDir');
-let angleFade = document.querySelector('.angle-dir-fade');
 let rotate = getComputedStyle(angle).getPropertyValue('rotate');
 
 
