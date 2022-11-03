@@ -11228,16 +11228,31 @@ ul .btn {
   }
   .dot-container {
     margin-left: 0px;
-    top: -115px;
+    top: -110px;
     left: -13px;
+    position: relative;
+    height: 185px;
+    width: 185px;
+  }
+  .dot {
+    top: 90.95px;
+    left: 91.2px;
   }
   .dir {
-    margin-left: -13px;
+    margin-left: -16px;
   }
   .test {
     margin: auto;
     left: auto;
     right: auto;
+  }
+  .sm-circle {
+    width: 145px;
+    height: 145px;
+  }
+  .lg-circle {
+    width: 185px;
+    height: 185px;
   }
 }
 @media screen and (min-width: 415px) {
