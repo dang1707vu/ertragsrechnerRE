@@ -106,44 +106,44 @@ var X = 180;
     //Degree
     function deg0() {
         document.getElementById('customRange2').value = '0';
-        angleFade.style.transform = "rotate(90deg)";
+        angleFade.style.transform = "rotate(-270deg)";
         angle.style.setProperty('rotate', '0deg');
         calcWirkungsgrad0deg();
     }
     function deg15() {
         document.getElementById('customRange2').value = '1';
-        angleFade.style.transform = "rotate(75deg)";
+        angleFade.style.transform = "rotate(-285deg)";
         angle.style.setProperty('rotate', '-15deg');
         calcWirkungsgrad15deg();
     }
     function deg30() {
         document.getElementById('customRange2').value = '2';
-        angleFade.style.transform = "rotate(60deg)";
+        angleFade.style.transform = "rotate(-300deg)";
         angle.style.setProperty('rotate', '-30deg');
         calcWirkungsgrad30deg();
     }
     function deg45() {
         document.getElementById('customRange2').value = '3';
-        angleFade.style.transform = "rotate(45deg)";
+        angleFade.style.transform = "rotate(-315deg)";
         angle.style.setProperty('rotate', '-45deg');
         calcWirkungsgrad45deg();
     }
     function deg60() {
         document.getElementById('customRange2').value = '4';
-        angleFade.style.transform = "rotate(30deg)";
+        angleFade.style.transform = "rotate(-330deg)";
         angle.style.setProperty('rotate', '-60deg');
         calcWirkungsgrad60deg();
     }
     function deg75() {
         document.getElementById('customRange2').value = '5';
-        angleFade.style.transform = "rotate(15deg)";
+        angleFade.style.transform = "rotate(-345deg)";
         angle.style.setProperty('rotate', '-75deg');
         calcWirkungsgrad75deg();
     }
     function deg90() {
         r = 6;
         document.getElementById('customRange2').value = '6';
-        angleFade.style.transform = "rotate(0deg)";
+        angleFade.style.transform = "rotate(-360deg)";
         angle.style.setProperty('rotate', '-90deg');
         calcWirkungsgrad90deg();
     }
