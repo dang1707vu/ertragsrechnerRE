@@ -1,4 +1,4 @@
-deg0();
+
 let angle = document.querySelector('.angleDir');
 let angleFade = document.querySelector('.angle-dir-fade');
 let rotate = getComputedStyle(angle).getPropertyValue('rotate');
@@ -350,6 +350,9 @@ function getVal2(newVal2) {
     }
 }
 
+//Start function
+deg0();
+
 // funktion bei neigung 15 = 
 // -0.000109289*X**2-0.105513*X+95.8462
 
@@ -367,7 +370,6 @@ function getVal2(newVal2) {
 
 // funktion bei neigung 90 = 
 // -0.000603142*X**2-0.197452*X+70.7315
-
 
 
 
