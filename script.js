@@ -7,6 +7,29 @@ let rotate = getComputedStyle(angle).getPropertyValue('rotate');
 let rangeX = document.querySelector('#customRange2');
 let value = getComputedStyle(rangeX).getPropertyValue('min');
 
+//Button Color
+
+let check = document.querySelector('.check');
+
+var c = 0
+function active() {
+    if (c == 0) {
+        check.classList.add('btnActive');
+        c = 1;
+    } else {
+        check.classList.remove('btnActive');
+        c = 0;
+    }
+};
+
+function active(elem) {
+    var a = document.getElementsByTagName('a');
+    for (i = 0; i < a.length; i++) {
+        a[i].classList.remove('btnActive')
+    }
+    elem.classList.add('btnActive');
+}
+
 
 //Photovoltaikleistung
  var modul = 1;

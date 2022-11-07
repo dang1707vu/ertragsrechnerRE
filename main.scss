@@ -14,10 +14,14 @@ $active-color: #ffba00;
   }
 
   //-> Button
+  .btnActive {
+    background-color: #ffba00;
+  }
+
+
   .btn {
     --bs-btn-bg: 		#F2F4F4;
   }
-
   ul .btn {
     --bs-btn-bg: 		white;
   }
@@ -27,10 +31,10 @@ $active-color: #ffba00;
   }
 
 //Button 
-.btn:active:focus {
-  color: #ffba00; 
-  background-color: #ffba00; 
-  border-color: #ffba00;
+.btn:hover {
+  color: #F9E79F ; 
+  background-color: #F9E79F ; 
+  border-color: #F9E79F ;
 }
 
 
@@ -323,6 +327,10 @@ $active-color: #ffba00;
     margin-left: -3%;
     margin-top: 15px;
   }
+
+.degRange {
+  margin-top: 10px;
+}
 
   #deg0 {
     left: -1.5%;
