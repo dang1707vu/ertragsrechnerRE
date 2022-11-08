@@ -20,9 +20,9 @@
                             <section class="text">
                                 <div class="container mt-5 text-center">
                                     <div class="col-12">
-                                        <h1 class="fw-bolder">Ertragsrechner</h1>
+                                        <h1 class="fw-bolder"><span class="text-warning">PV</span>-Ertragsrechner</h1>
                                         <p class="text-muted textT">
-                                            Der Ertragsrechner verrät Dir, wie viel Strom Du produzierst bzw. selbst verbrauchst und wie Du Deine Kosteneinsparung durch die ideale Modul-Ausrichtung und optimierten Neigungswinkel maximierst. Viel Spaß!
+                                            Ertragsrechner verrät Dir, wie viel Strom Du produzierst bzw. selbst verbrauchst und wie Du Deine Kosteneinsparung durch die ideale Modul-Ausrichtung und optimierten Neigungswinkel maximierst. Viel Spaß!
                                         </p>
                                     </div>
                                 </div>
@@ -89,14 +89,14 @@
                                             <div class="circle-wrapper">
                                                 <div class="test">
                                                 <ul class="dir">
-                                                    <a><button class="check N"  onclick="active(this), Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">N</button> </a>
-                                                    <a><button class="check NO" onclick="active(this), NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NO</button></a>
-                                                    <a><button class="check O" onclick="active(this), Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">O</button></a>
-                                                    <a><button class="check SO" onclick="active(this), SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SO</button></a>
-                                                    <a><button class="check S" onclick="active(this), Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">S</button></a>
-                                                    <a><button class="check SW" onclick="active(this), SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SW</button></a>
-                                                    <a><button class="check W" onclick="active(this), W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">W</button></a>
-                                                    <a><button class="check NW" onclick="active(this), NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NW</button></a>
+                                                    <button class="check N"  onclick="Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">N</button> 
+                                                    <button class="check NO" onclick="NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NO</button>
+                                                    <button class="check O" onclick="Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">O</button>
+                                                    <button class="check SO" onclick="SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SO</button>
+                                                    <button class="check S" onclick="Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">S</button>
+                                                    <button class="check SW" onclick="SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SW</button>
+                                                    <button class="check W" onclick="W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">W</button>
+                                                    <button class="check NW" onclick="NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NW</button>
                                                 </ul>
                                                 <div class="dot-container">
                                                 <div class="dot">
@@ -114,14 +114,14 @@
                                 <div class="rangeNav1 col-12 col-xl-10">
                                     <input type="range" value="0" class="form-range dirRange" min="0" max="7" id="customRange" oninput="getVal1(this.value)" onchange="getVal1(this.value)">
                                     <ul class="dirName list-group list-group-horizontal-md justify-content-center">
-                                        <button id="N" class="btn text-muted border-0" onclick="Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">N</button>
-                                        <button id="NO" class="btn text-muted border-0" onclick="NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NO</button>
-                                        <button id="O" class="btn text-muted border-0" onclick="Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">0</button>
-                                        <button id="SO" class="btn text-muted border-0" onclick="SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SO</button>
-                                        <button id="S" class="btn text-muted border-0" onclick="Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">S</button>
-                                        <button id="SW" class="btn text-muted border-0" onclick="SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SW</button>
-                                        <button id="W" class="btn text-muted border-0" onclick="W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">W</button>
-                                        <button id="NW" class="btn text-muted border-0" onclick="NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NW</button>
+                                        <button id="N" class="btn text-muted border-0" onclick=" Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">N</button>
+                                        <button id="NO" class="btn text-muted border-0" onclick=" NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">NO</button>
+                                        <button id="O" class="btn text-muted border-0" onclick=" Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">0</button>
+                                        <button id="SO" class="btn text-muted border-0" onclick=" SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">SO</button>
+                                        <button id="S" class="btn text-muted border-0" onclick=" Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">S</button>
+                                        <button id="SW" class="btn text-muted border-0" onclick=" SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">SW</button>
+                                        <button id="W" class="btn text-muted border-0" onclick=" W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">W</button>
+                                        <button id="NW" class="btn text-muted border-0" onclick=" NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">NW</button>
                                     </ul>
                                 </div>
                             </div>
@@ -150,16 +150,16 @@
                             <div class="col-12 col-xl-10">
                                 <div class="range degRange text-center">
                                     <label for="customRange2" class="form-label"></label>
-                                    <input type="range" value="0" class="form-range degRange" min="0" max="6" id="customRange2" oninput="getVal2(this.value)" onchange="getVal2(this.value)">
+                                    <input type="range" value="0" class="mt-1 form-range degRange" min="0" max="6" id="customRange2" oninput="getVal2(this.value)" onchange="getVal2(this.value)">
                                 </div>
                                 <ul class=" degName range-labels list-group list-group-horizontal-md justify-content-evenly">
-                                    <button id="deg0" class="btn border-0 text-muted" onclick="deg0(), calcErzeugt(modul, wirkungsgrad)">0°</button>
-                                    <button id="deg15" class="btn border-0 text-muted" onclick="deg15(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">15°</button>
-                                    <button id="deg30" class="btn border-0 text-muted" onclick="deg30(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">30°</button>
-                                    <button id="deg45" class="btn border-0 text-muted" onclick="deg45(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">45°</button>
-                                    <button id="deg60" class="btn border-0 text-muted" onclick="deg60(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">60°</button>
-                                    <button id="deg75" class="btn border-0 text-muted" onclick="deg75(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">75°</button>
-                                    <button id="deg90" class="btn border-0 text-muted" onclick="deg90(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">90°</button>
+                                    <button id="deg0" class="btn border-0 text-muted" onclick="active2(this), deg0(), calcErzeugt(modul, wirkungsgrad)">0°</button>
+                                    <button id="deg15" class="btn border-0 text-muted" onclick="active2(this), deg15(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">15°</button>
+                                    <button id="deg30" class="btn border-0 text-muted" onclick="active2(this), deg30(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">30°</button>
+                                    <button id="deg45" class="btn border-0 text-muted" onclick="active2(this), deg45(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">45°</button>
+                                    <button id="deg60" class="btn border-0 text-muted" onclick="active2(this), deg60(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">60°</button>
+                                    <button id="deg75" class="btn border-0 text-muted" onclick="active2(this), deg75(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">75°</button>
+                                    <button id="deg90" class="btn border-0 text-muted" onclick="active2(this), deg90(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">90°</button>
                                 </ul>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                                             </div>
                                             </div>
                                         <div class="col-4 mt-4 img">
-                                            <img src="./images/calc2.svg" style="width: 165px; height: 140px;">
+                                            <img src="./images/calc2.svg">
                                         </div>
                                     </div>
                                 </div>

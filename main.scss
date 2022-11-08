@@ -1,6 +1,5 @@
 //Base Styling SASS
 $warning: #ffba00;
-$active-color: #ffba00;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 //btn 
@@ -14,8 +13,12 @@ $active-color: #ffba00;
   }
 
   //-> Button
-  .btnActive {
-    background-color: #ffba00;
+  .btnActive1 {
+    background-color: #FFD700;
+  }
+
+  .btnActive2 {
+    background-color: #FFD700;
   }
 
 
@@ -27,14 +30,14 @@ $active-color: #ffba00;
   }
 
   .btn-outline-warning {
-    --bs-btn-active-color: white;
+    --bs-btn-active-color: black;
   }
 
 //Button 
 .btn:hover {
-  color: #F9E79F ; 
-  background-color: #F9E79F ; 
-  border-color: #F9E79F ;
+  color: #FFD700 ; 
+  background-color: #FFD700 ; 
+  border-color: #FFD700 ;
 }
 
 
@@ -442,7 +445,7 @@ $active-color: #ffba00;
     overflow: hidden;
     height: 110px;
     width: 7px;
-    background: 	#0d6efd;
+    background: 	#252525;
     top: 67px;
     left: 7px;
     border-radius: 50px;
@@ -503,6 +506,10 @@ $active-color: #ffba00;
         left: auto;
         right: auto;
     }
+  img {
+    width: 110px;
+    height: 120px;
+  }
 }
 
 @media screen and (min-width: 415px) {
@@ -671,6 +678,10 @@ margin-left: 19%;
 //Card
 .cardKosten {
   width: 550px;
+}
+img {
+  width: 160px;
+  height: 150px;
 }
 }
 
