@@ -501,8 +501,14 @@ $primary: #1389d7;
         right: auto;
     }
   img {
-    width: 110px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+  }
+  .strom {
+    font-size: 15px;
+  }
+  .verbrauch {
+    font-size: 15px;
   }
 }
 
@@ -516,6 +522,16 @@ $primary: #1389d7;
         margin: auto;
         left: auto;
         right: auto;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .strom {
+      font-size: 15px;
+    }
+    .verbrauch {
+      font-size: 15px;
     }
 }
 
@@ -555,6 +571,16 @@ $primary: #1389d7;
     }
     .cardKosten {
         width: 400px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .strom {
+      font-size: 15px;
+    }
+    .verbrauch {
+      font-size: 15px;
     }
 }
 

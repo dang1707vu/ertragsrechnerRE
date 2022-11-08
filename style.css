@@ -11258,8 +11258,14 @@ ul .btn {
     right: auto;
   }
   img {
-    width: 110px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+  }
+  .strom {
+    font-size: 15px;
+  }
+  .verbrauch {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 415px) {
@@ -11272,6 +11278,16 @@ ul .btn {
     margin: auto;
     left: auto;
     right: auto;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .strom {
+    font-size: 15px;
+  }
+  .verbrauch {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 468px) {
@@ -11308,6 +11324,16 @@ ul .btn {
   }
   .cardKosten {
     width: 400px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .strom {
+    font-size: 15px;
+  }
+  .verbrauch {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 576px) {
