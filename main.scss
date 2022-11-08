@@ -1,5 +1,6 @@
 //Base Styling SASS
 $warning: #ffba00;
+$primary: #1389d7;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 //btn 
@@ -29,18 +30,11 @@ $warning: #ffba00;
     --bs-btn-bg: 		white;
   }
 
-  .btn-outline-warning {
-    --bs-btn-active-color: black;
+  .btn-outline-primary {
+    --bs-btn-active-color: white;
   }
 
 //Button 
-.btn:hover {
-  color: #FFD700 ; 
-  background-color: #FFD700 ; 
-  border-color: #FFD700 ;
-}
-
-
 .degName {
   border: none;
 
@@ -48,14 +42,14 @@ $warning: #ffba00;
 
   //->Slider
 .form-range::-webkit-slider-thumb {
-    background-color: #ffba00;
+    background-color: #1389d7;
 }
 .form-range::-moz-range-thumb {
-    background-color: #ffba00;
+    background-color: #1389d7;
 }
 
 .form-range::-webkit-slider-thumb:active {
-    background-color: #ffba00;
+    background-color: #1389d7;
 }
 
 .form-range::-webkit-slider-runnable-track {
@@ -72,7 +66,7 @@ $warning: #ffba00;
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #ffba00;
+    background-color: #1389d7;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -232,7 +226,7 @@ $warning: #ffba00;
     height: 0;
     border-left: 45px solid transparent;
     border-right: 45px solid transparent;
-    border-top: 100px solid rgba(255, 186, 0, 0.7);
+    border-top: 100px solid rgba(255, 186, 0, 0.6);
     top: -100px;
     left: -45px;
     transition: .3s;
@@ -445,7 +439,7 @@ $warning: #ffba00;
     overflow: hidden;
     height: 110px;
     width: 7px;
-    background: 	#252525;
+    background: 	#1389d7;
     top: 67px;
     left: 7px;
     border-radius: 50px;
@@ -466,7 +460,7 @@ $warning: #ffba00;
 
 // Card Styling
 .cardKosten {
-    width: 325px;
+    width: 335px;
     max-width: 1000px;
     height: 400px;
     margin: auto;
@@ -680,8 +674,8 @@ margin-left: 19%;
   width: 550px;
 }
 img {
-  width: 160px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 }
 

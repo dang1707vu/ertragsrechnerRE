@@ -36,15 +36,16 @@
                                 <div class="col-12 col-xl-10">
                                     <div class="text-center">
                                         <h5 class="bolder text-center mt-5">Photovoltaikleistung</h5>
+                                        <p class="text-muted text-center">Anzahl der Module</p>
                                         <div class="btn-group mt-2" role="group" aria-label="Basic radio toggle button group" style="width: 100%;">
                                             <input type="radio" class="btn-check" name="btnradio" onclick="Modul1(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)" id="btnradio1" autocomplete="off"  checked>
-                                            <label class="btn btn-outline-warning border-0 border-end fw-bolder" for="btnradio1">1 MODUL</label>
+                                            <label class="btn btn-outline-primary border-0 border-end fw-bolder" for="btnradio1">1 MODUL</label>
                                         
                                             <input type="radio" class="btn-check" name="btnradio" onclick="Modul2(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)" id="btnradio2" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-0 border-end border-start fw-bolder" for="btnradio2">2 MODULE</label>
+                                            <label class="btn btn-outline-primary border-0 border-end border-start fw-bolder" for="btnradio2">2 MODULE</label>
                 
                                             <input type="radio" class="btn-check" name="btnradio" onclick="Modul4(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)" id="btnradio3" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-0 border-start fw-bolder" for="btnradio3">4 MODULE</label>
+                                            <label class="btn btn-outline-primary border-0 border-start fw-bolder" for="btnradio3">4 MODULE</label>
                                         </div>
                                     </div>
                                 </div>
@@ -59,19 +60,19 @@
                                         <p class="text-muted text-center">Anzahl Personen im Haushalt</p>
                                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group" style="width: 100%;">
                                             <input type="radio" class="btn-check" name="btnradioX" id="btnradio4" onclick="Person1()" autocomplete="off" checked>
-                                            <label class="btn btn-outline-warning border-end border-0 fw-bolder" for="btnradio4">1</label>
+                                            <label class="btn btn-outline-primary border-end border-0 fw-bolder" for="btnradio4">1</label>
                                         
                                             <input type="radio" class="btn-check" name="btnradioX" id="btnradio5" onclick="Person2()" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-end border-start border-0 fw-bolder" for="btnradio5">2</label>
+                                            <label class="btn btn-outline-primary border-end border-start border-0 fw-bolder" for="btnradio5">2</label>
                                         
                                             <input type="radio" class="btn-check" name="btnradioX" id="btnradio6" onclick="Person3()" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-end border-start border-0 fw-bolder" for="btnradio6">3</label>
+                                            <label class="btn btn-outline-primary border-end border-start border-0 fw-bolder" for="btnradio6">3</label>
                                     
                                             <input type="radio" class="btn-check" name="btnradioX" id="btnradio7" onclick="Person4()" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-end border-start border-0 fw-bolder" for="btnradio7">4</label>
+                                            <label class="btn btn-outline-primary border-end border-start border-0 fw-bolder" for="btnradio7">4</label>
                                         
                                             <input type="radio" class="btn-check" name="btnradioX" id="btnradio8" onclick="Person5()" autocomplete="off">
-                                            <label class="btn btn-outline-warning border-start border-0 fw-bolder" for="btnradio8">5</label>
+                                            <label class="btn btn-outline-primary border-start border-0 fw-bolder" for="btnradio8">5</label>
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +86,6 @@
                                 <div class="container mt-4">
                                     <div class="col-12 col-xl-10">
                                         <h5 class="text-center pb-3">Modul-Ausrichtung (Himmelsrichtung)</h5>
-                                        <p class="text-muted text-center">Anzahl der Module</p>
                                         <div class="circle-container">
                                             <div class="circle-wrapper">
                                                 <div class="test">
@@ -115,14 +115,14 @@
                                 <div class="rangeNav1 col-12 col-xl-10">
                                     <input type="range" value="0" class="form-range dirRange" min="0" max="7" id="customRange" oninput="getVal1(this.value)" onchange="getVal1(this.value)">
                                     <ul class="dirName list-group list-group-horizontal-md justify-content-center">
-                                        <button id="N" class="btn text-muted border-0" onclick=" Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">N</button>
-                                        <button id="NO" class="btn text-muted border-0" onclick=" NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">NO</button>
-                                        <button id="O" class="btn text-muted border-0" onclick=" Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">0</button>
-                                        <button id="SO" class="btn text-muted border-0" onclick=" SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">SO</button>
-                                        <button id="S" class="btn text-muted border-0" onclick=" Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">S</button>
-                                        <button id="SW" class="btn text-muted border-0" onclick=" SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">SW</button>
-                                        <button id="W" class="btn text-muted border-0" onclick=" W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">W</button>
-                                        <button id="NW" class="btn text-muted border-0" onclick=" NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX), active1(this)">NW</button>
+                                        <button id="N" class="btn text-muted border-0" onclick=" Nord(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">N</button>
+                                        <button id="NO" class="btn text-muted border-0" onclick=" NordO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NO</button>
+                                        <button id="O" class="btn text-muted border-0" onclick=" Osten(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">0</button>
+                                        <button id="SO" class="btn text-muted border-0" onclick=" SüdO(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SO</button>
+                                        <button id="S" class="btn text-muted border-0" onclick=" Süd(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">S</button>
+                                        <button id="SW" class="btn text-muted border-0" onclick=" SüdW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">SW</button>
+                                        <button id="W" class="btn text-muted border-0" onclick=" W(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">W</button>
+                                        <button id="NW" class="btn text-muted border-0" onclick=" NordW(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">NW</button>
                                     </ul>
                                 </div>
                             </div>
@@ -146,7 +146,6 @@
                                         <div class="progressBG"></div>
                                     </div>
                                 </div>
-                            </div>
                         <div class="container mb-5">
                             <div class="col-12 col-xl-10">
                                 <div class="range degRange text-center">
@@ -154,13 +153,13 @@
                                     <input type="range" value="0" class="mt-1 form-range degRange" min="0" max="6" id="customRange2" oninput="getVal2(this.value)" onchange="getVal2(this.value)">
                                 </div>
                                 <ul class=" degName range-labels list-group list-group-horizontal-md justify-content-evenly">
-                                    <button id="deg0" class="btn border-0 text-muted" onclick="active2(this), deg0(), calcErzeugt(modul, wirkungsgrad)">0°</button>
-                                    <button id="deg15" class="btn border-0 text-muted" onclick="active2(this), deg15(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">15°</button>
-                                    <button id="deg30" class="btn border-0 text-muted" onclick="active2(this), deg30(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">30°</button>
-                                    <button id="deg45" class="btn border-0 text-muted" onclick="active2(this), deg45(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">45°</button>
-                                    <button id="deg60" class="btn border-0 text-muted" onclick="active2(this), deg60(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">60°</button>
-                                    <button id="deg75" class="btn border-0 text-muted" onclick="active2(this), deg75(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">75°</button>
-                                    <button id="deg90" class="btn border-0 text-muted" onclick="active2(this), deg90(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">90°</button>
+                                    <button id="deg0" class="btn border-0 text-muted" onclick="deg0(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">0°</button>
+                                    <button id="deg15" class="btn border-0 text-muted" onclick="deg15(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">15°</button>
+                                    <button id="deg30" class="btn border-0 text-muted" onclick="deg30(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">30°</button>
+                                    <button id="deg45" class="btn border-0 text-muted" onclick="deg45(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">45°</button>
+                                    <button id="deg60" class="btn border-0 text-muted" onclick="deg60(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">60°</button>
+                                    <button id="deg75" class="btn border-0 text-muted" onclick="deg75(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">75°</button>
+                                    <button id="deg90" class="btn border-0 text-muted" onclick="deg90(), calcErzeugt(modul, wirkungsgrad), ersparnis(modul, leistungX)">90°</button>
                                 </ul>
                             </div>
                         </div>
@@ -169,28 +168,28 @@
                 
             </div>
             <div class="col-12 col-xl-4">
-                <section class="mt-4 sticky-top">
+                <section class="mt-5 sticky-top">
                     <div class="containerX kosten text">
                         <div class="col-12">
                             <div class="container containerX">
-                                <div class="card cardKosten rounded-4 mb-5 bg-dark text-white ps-4 pt-4 ">
+                                <div class="card cardKosten rounded-4 mb-5 bg-dark text-white pt-4 ps-5">
                                     <div class="text-center me-5 border-bottom">
                                         <h5>DEINE KOSTENEINSPARUNG</h5>
-                                        <h1 class="fw-bolder" style="color: #ffba00; font-size: 50px;"><span id="kostenJahr">109€</span><small style="font-size: 25px;">/Jahr</small></h1>
+                                        <h1 class="fw-bolder" style="color: #1389d7; font-size: 50px;"><span id="kostenJahr">109€</span><small style="font-size: 25px;">/Jahr</small></h1>
                                     </div>
-                                    <div class="row mt-4">
+                                    <div class="row">
                                         <div class="col-8">
                                             <div class="eigenverbrauch">
                                                 <h5 id="verbrauchPersonen" class="mt-4">Ø VERBRAUCH BEI <span id="personenAnzahl">1 PERSON</span></h5>
-                                                <h4 id="verbraucht"  style="color: #ffba00;">2300 kWh</h4>
+                                                <h4 id="verbraucht"  style="color: #76b4dd;">2300 kWh</h4>
                                                 <div class="erzeugterStrom">
                                                     <h5 class="mt-4">ERZEUGTER STROM</h5>
-                                                    <h4 id="erzeugt" style="color: #ffba00;">331 kWh</h4>
+                                                    <h4 id="erzeugt" style="color: #76b4dd;">331 kWh</h4>
                                                 </div>
                                             </div>
                                             </div>
-                                        <div class="col-4 mt-4 img">
-                                            <img src="./images/calc2.svg">
+                                        <div class="col-4 mt-4 img pt-4 ps-1">
+                                            <img src="./images/calculator (1).png">
                                         </div>
                                     </div>
                                 </div>

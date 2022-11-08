@@ -17,21 +17,21 @@ let value = getComputedStyle(rangeX).getPropertyValue('min');
 //     elem.classList.add('btnActive1');
 // }
 
-function active1(elem) {
-    var b = document.getElementsByTagName('button');
-    for (i = 0; i < b.length; i++) {
-        b[i].classList.remove('btnActive1');
-    }
-    elem.classList.add('btnActive1');
-}
+// function active1(elem) {
+//     var b = document.getElementsByTagName('button');
+//     for (i = 0; i < b.length; i++) {
+//         b[i].classList.remove('btnActive1');
+//     }
+//     elem.classList.add('btnActive1');
+// }
 
-function active2(elem) {
-    var b = document.getElementsByTagName('button');
-    for (i = 0; i < b.length; i++) {
-        b[i].classList.remove('btnActive2');
-    }
-    elem.classList.add('btnActive2');
-}
+// function active2(elem) {
+//     var b = document.getElementsByTagName('button');
+//     for (i = 0; i < b.length; i++) {
+//         b[i].classList.remove('btnActive2');
+//     }
+//     elem.classList.add('btnActive2');
+// }
 
 
 //Photovoltaikleistung
