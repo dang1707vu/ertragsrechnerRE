@@ -13,6 +13,7 @@ $primary: #1389d7;
     padding: 0%;
   }
 
+
   //-> Button
   .btnActive1 {
     background-color: #FFD700;
@@ -468,6 +469,17 @@ $primary: #1389d7;
 
 .img {
     margin-left: -25px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+.strom {
+  font-size: 15px;
+}
+.verbrauch {
+  font-size: 15px;
 }
 
 

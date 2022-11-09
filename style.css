@@ -11231,6 +11231,19 @@ ul .btn {
   margin-left: -25px;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.strom {
+  font-size: 15px;
+}
+
+.verbrauch {
+  font-size: 15px;
+}
+
 @media screen and (min-width: 361px) and (max-width: 467px) {
   .form-range {
     min-width: 295px;
